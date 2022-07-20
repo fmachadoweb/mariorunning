@@ -74,7 +74,7 @@ Utility:
 
 Fernando Machado - [@fmachadoweb](https://twitter.com/fmachadoweb) - fernandomachadoweb@gmail.com
 
-Project Link: [https://github.com/fmachadoweb/mariorunning](https://github.com/fmachadoweb/escapetherunningzombie)
+Project Link: [https://github.com/fmachadoweb/mariorunning](https://github.com/fmachadoweb/mariorunning)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
