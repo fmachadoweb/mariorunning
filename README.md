@@ -13,7 +13,7 @@
 
   <p align="center">
     <br />
-    <a href="https://github.com/fmachadoweb/escapetherunningzombie"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/fmachadoweb/mariorunning"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://hardtek.com.br/game3/">View Demo</a>
@@ -74,7 +74,7 @@ Utility:
 
 Fernando Machado - [@fmachadoweb](https://twitter.com/fmachadoweb) - fernandomachadoweb@gmail.com
 
-Project Link: [https://github.com/fmachadoweb/escapetherunningzombie](https://github.com/fmachadoweb/escapetherunningzombie)
+Project Link: [https://github.com/fmachadoweb/mariorunning](https://github.com/fmachadoweb/escapetherunningzombie)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
