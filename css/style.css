@@ -1,0 +1,117 @@
+/* Created By Fernando Machado
+My github: https://github.com/fmachadoweb
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span {
+    font-family: 'Press Start 2P', cursive;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.game-board {
+    width: 100%;
+    height: 420px;
+    border-bottom: 15px solid rgb(35, 160, 35);
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#87CEEB, #FFFFFF, #FFFFFF);
+}
+
+audio { display:none;}
+
+.pipe {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    animation: pipe-animation 2s infinite linear;
+}
+
+
+
+.mario {
+    width: 120px;
+    position: absolute;
+    bottom: 0;
+}
+
+.jump {
+    animation: jump 500ms ease-out;
+}
+
+.clouds {
+    position: absolute;
+    width: 400px;
+    margin-top: 10px;
+    animation: clouds-animation 20s infinite linear;
+}
+
+@keyframes pipe-animation {
+    from {
+        right: -80px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes jump {
+    0% {
+        bottom: 0;
+    }
+
+    40% {
+        bottom: 300px;
+    }
+
+    50% {
+        bottom: 300px;
+    }
+
+    60% {
+        bottom: 300px;
+    }
+
+    100% {
+        bottom: 0;
+    }
+    
+}
+
+@keyframes clouds-animation {
+    from {
+        right: -400px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+
+
+@keyframes fa-blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 0; }
+}
+.fa-blink {
+  -webkit-animation: fa-blink .75s linear infinite;
+  -moz-animation: fa-blink .75s linear infinite;
+  -ms-animation: fa-blink .75s linear infinite;
+  -o-animation: fa-blink .75s linear infinite;
+  animation: fa-blink .75s linear infinite;
+}
