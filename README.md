@@ -43,8 +43,8 @@
 This is a Game made with HTML, CSS and Javascript.
 
 Objective:
-* Jump with the man to escape the zombies.
-* If the zombie touches you, you lose.
+* Jump with the Mario to escape the pipe.
+* If the Pipe touches you, you lose.
 * Try to survive as long as possible.
 
 Utility:
