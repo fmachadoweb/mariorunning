@@ -39,6 +39,12 @@ audio { display:none;}
     animation: pipe-animation 2s infinite linear;
 }
 
+.score {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  font-size: x-large;
+}
 
 
 .mario {
@@ -53,8 +59,8 @@ audio { display:none;}
 
 .clouds {
     position: absolute;
-    width: 400px;
-    margin-top: 10px;
+    width: 200px;
+    margin-top: 70px;
     animation: clouds-animation 20s infinite linear;
 }
 
@@ -93,7 +99,7 @@ audio { display:none;}
 
 @keyframes clouds-animation {
     from {
-        right: -400px;
+        right: -200px;
     }
 
     to {

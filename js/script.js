@@ -1,44 +1,40 @@
-/* Created By Fernando Machado
-    My github: https://github.com/fmachadoweb
-    */
+const mario = document.querySelector(".mario");
+const pipe = document.querySelector(".pipe");
+const score = document.querySelector(".score");
+let alreadyJump = false;
+let count = 0;
 
-const mario = document.querySelector('.mario');
-const pipe = document.querySelector('.pipe');
+document.addEventListener("keydown", (e) => {
+  if ((e.code === "ArrowUp") | (e.code === "Space")) {
+    jump();
+  }
+});
 
+function jump() {
+  if (!mario.classList.contains("jump")) {
+    mario.classList.add("jump");
+    alreadyJump = true;
 
-const jump = () => {
-    mario.classList.add('jump');
-
-    setTimeout (() => {
-        mario.classList.remove('jump');
-    }, 500);
+    setTimeout(() => {
+      mario.classList.remove("jump");
+      alreadyJump = false;
+    }, 1100);
+  }
 }
 
+setInterval(() => {
+  let marioBottom = parseInt(
+    window.getComputedStyle(mario).getPropertyValue("bottom")
+  );
+  let pipeLeft = parseInt(
+    window.getComputedStyle(pipe).getPropertyValue("left")
+  );
 
-const loop = setInterval(() => {
+  if (pipeLeft > 40 && pipeLeft < 120 && marioBottom <= 50 && !alreadyJump) {
+    alert(`Game Over! Seu score foi: ${count}`);
+    count = 0;
+  }
 
-    const pipePosition = pipe.offsetLeft;
-    const marioPosition = +window.getComputedStyle(mario).bottom.replace('px', '');
-
-
-    if (pipePosition <= 120 && pipePosition > 0 && marioPosition < 200) {
-
-        pipe.style.animation ='none';
-        pipe.style.left = `${pipePosition}px`;
-
-        mario.style.animation ='none';
-        mario.style.bottom = `${pipePosition}px`;
-
-        mario.src ='./img/game-over.png';
-        mario.style.width = "120px";
-        mario.style.marginLeft = "50px";
-
-        clearInterval(loop);
-
-    }
-
+  count++;
+  score.innerHTML = `SCORE: ${count}`;
 }, 10);
-
-document.addEventListener('keydown', jump);
-
-
