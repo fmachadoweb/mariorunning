@@ -1,3 +1,10 @@
+/* 
+MARIO RUNNING (GAME) V3.0
+Created By Fernando Machado
+My github: https://github.com/fmachadoweb
+*/
+
+
 const mario = document.querySelector(".mario");
 const pipe = document.querySelector(".pipe");
 const score = document.querySelector(".score");
