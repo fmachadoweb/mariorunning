@@ -38,7 +38,7 @@ setInterval(() => {
   );
 
   if (pipeLeft > 40 && pipeLeft < 120 && marioBottom <= 50 && !alreadyJump) {
-    alert(`Game Over! Seu score foi: ${count}`);
+    alert(`Game Over! Your score was: ${count}`);
     count = 0;
   }
 
