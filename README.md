@@ -9,7 +9,7 @@
     <img src="https://github.com/othneildrew/Best-README-Template/raw/master/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">MARIO RUNNING (GAME)</h3>
+  <h3 align="center">MARIO RUNNING (GAME) V 3.0</h3>
 
   <p align="center">
     <br />
@@ -55,7 +55,9 @@ Utility:
 <!-- RELASES NOTES -->
 ### RELASES NOTES
 
-* V2.0 - Added Buttom's of JUMP and RESTART.
+
+* V3.0 - Added Score on screen.
+* V2.0 - Added Buttom's of JUMP.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -65,7 +67,7 @@ Utility:
 ## Game Screenshot
 <div align="center">
   <a href="#">
- <img src="https://hardtek.com.br/game3/screenshot.png" alt="Logo" width="868" height="410"></a>
+ <img src="http://hardtek.com.br/game3/screenshot.png" alt="Logo" width="868" height="410"></a>
 </div>
 
 
