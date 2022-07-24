@@ -9,7 +9,7 @@
     <img src="https://github.com/othneildrew/Best-README-Template/raw/master/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">MARIO RUNNING (GAME) V 3.0</h3>
+  <h3 align="center">MARIO RUNNING (GAME) V 4.0</h3>
 
   <p align="center">
     <br />
@@ -55,7 +55,7 @@ Utility:
 <!-- RELASES NOTES -->
 ### RELASES NOTES
 
-* V4.0 - New style screen.
+* V4.0 - New design, new functions.
 * V3.0 - Added Score on screen.
 * V2.0 - Added Buttom's of JUMP.
 
