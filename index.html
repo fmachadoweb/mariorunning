@@ -1,53 +1,58 @@
 <!-- 
-MARIO RUNNING (GAME) V3.0
+MARIO RUNNING (GAME) V4.0
 Created By Fernando Machado
 My github: https://github.com/fmachadoweb
 -->
 
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MARIO RUNNING - THE GAME</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>MARIO RUNNING GAME</title>
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
-
-          <embed src="./media/sound.mp3" loop="true" autostart="true" width="2" height="0">
-
-    <div align="center">
-        <h1 style="color: darkred;"><img src="./img/mario.gif" height="50px"> <span>MARIO RUNNING</span> <img src="./img/pipe.png" height="40px"></h1>
+    
+	<div align="center">
+        <h1 style="color: darkred;"><img src="img/player.gif" height="50px"> <span>MARIO RUNNING</span> <img src="img/block.gif" height="40px"></h1>
     </div>
-
-    <div class="game-board">
-		<span class="score"></span>
-        <img src="./img/clouds.png" class="clouds">
-        <img src="./img/pipe.png" class="pipe">
-        <img src="./img/mario.gif" class="mario">
+	
+	<div id="container">
+        <div id="player">
+            <img src="img/player.gif" alt="player">
+        </div>
+        <div id="block">
+            <img src="img/block.gif" alt="blocks">
+        </div>
+        <div id="road">
+            <img src="img/road.png" alt="road">
+        </div>
+        <div id="cloud">
+            <img src="img/cloud.png" alt="cloud">
+        </div>
+        <div id="score">Score <b>00</b></div>
+        <div id="gameOver">Game Over</div>
     </div>
-
-<div><br />
-    <div><p align="center" ><strong class="fa-blink">PRESS SPACEBAR TO JUMP</strong> OR <button onclick="jump()">JUMP</button><br />
+    
+	<div>
+    <div><p align="center" ><strong class="fa-blink">PRESS <u>SPACEBAR</u> TO START AND ARROW UP (&#8593;) TO JUMP</strong> 
 
 		</p>  <br />
 		
-        <p align="center"> Made With &#10084; By <a href="https://github.com/fmachadoweb" target="_blank">Fernando Machado</a></p>
+        <p align="center">Made With &#10084; By <a href="https://github.com/fmachadoweb" target="_blank">Fernando Machado</a></p>
         <br />
 
         </div>
 
  
 </div>
-
-<script src="./js/script.js"></script>
-
-
+	
+	<script src="js/main.js"></script>
+	
 </body>
 </html>
