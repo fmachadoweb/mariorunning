@@ -1,6 +1,6 @@
 /* 
 MARIO RUNNING (GAME) V4.0
-Created By Fernando Machado
+Coded By Fernando Machado
 My github: https://github.com/fmachadoweb
 */
 
