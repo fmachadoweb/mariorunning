@@ -1,7 +1,6 @@
 /* 
 MARIO RUNNING (GAME) V4.0
-Coded By Fernando Machado
-My github: https://github.com/fmachadoweb
+Coded By: https://github.com/fmachadoweb
 */
 
 * {
@@ -129,7 +128,7 @@ body {
 
 @keyframes cloudAnimate {
     0% {
-        left: -2000px;
+        left: -1000px;
     }
 
     100% {
