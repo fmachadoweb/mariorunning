@@ -67,7 +67,7 @@ Utility:
 ## Game Screenshot
 <div align="center">
   <a href="#">
- <img src="http://hardtek.com.br/game3/screenshot.png" alt="Logo" width="868" height="410"></a>
+ <img src="http://hardtek.com.br/game3/screenshot2.png" alt="Logo" width="868" height="410"></a>
 </div>
 
 
