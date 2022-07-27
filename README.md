@@ -55,6 +55,7 @@ Utility:
 <!-- RELASES NOTES -->
 ### RELASES NOTES
 
+* V5.0 - Added New design for the ground.
 * V4.0 - New design, new functions.
 * V3.0 - Added Score on screen.
 * V2.0 - Added Buttom's of JUMP.
